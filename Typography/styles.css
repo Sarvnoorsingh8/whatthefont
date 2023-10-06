@@ -123,6 +123,7 @@ header a:hover,
 }
 .vichkarla:hover{
     color:red
+    
 }
 
 div p:hover {
@@ -130,6 +131,7 @@ div p:hover {
 }
 .fifthverse:hover{
     color:olivedrab;
+    font-family: 'Young Serif', serif;
 }
 .sixth{
     color:rgb(243, 153, 43);
@@ -138,7 +140,9 @@ div p:hover {
     color:#37285b;
 }
 .seventh{
-    color:bisque
+    font-family: 'Young Serif', serif;
+    color:bisque;
+    
 }
 .seventh:hover{
     color:chartreuse;
