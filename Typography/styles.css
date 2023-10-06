@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    width: auto;
+    background-color: rgb(103, 76, 76);
+}
+
+p, li {
+    font-family: 'AR One Sans', sans-serif;
+}
+
+h1 {
+    
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 70px;
+}
+.lyrics_container {
+    background-image: url("img/belief.jpg");
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr); /* Two columns with equal width */
+        gap: 2px; /* Adjust the gap between images */
+    }
+    img {
+        max-width: 100%; 
+        height: auto; 
+    }
+   
+
+header {
+    text-align: center;
+    background-color: #2ed2eb;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 240px;
+}
+
+a, li {
+    color: rgb(167, 109, 75);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+menu {
+    list-style: none;
+}
+
+header > nav > menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header > nav > menu > li {
+    padding: 10px;
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.lyrics {
+    display: flex;
+    justify-content: center;
+    background-color: #555050; 
+    padding: 20px;
+}
+
+.lyrics > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pehlapehra {
+    font-size: 45px;
+    color: #323010;
+    font-family: 'Young Serif', serif;
+}
+
+
+
+.duujapehra {
+    font-size: 30px;
+    color: rgb(39, 129, 193);
+}
+
+
+.Teeja-verse {
+    font-size: 20px;
+    color: rgb(210, 49, 81);
+    font-family: 'Young Serif', serif;                                          
+}
+
+/* Adjusting the first-line and first-letter styles */
+div:first-of-type p::first-line {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+div:first-of-type p::first-letter {
+    font-weight: 600;
+    font-size: 42px;
+}
+
+/* Consolidated hover styles */
+.head a:hover,
+header a:hover,
+.dodge:hover {
+    color: rgb(157, 136, 61);
+}
+
+.duujapehra:hover {
+    color: rgb(107, 48, 39);
+}
+
+.firstquat:hover{
+    color:darkcyan;
+
+}
+.pehlapehra:hover {
+    color: rgb(222, 109, 61);
+}
+.vichkarla:hover{
+    color:red
+}
+
+div p:hover {
+    color: white;
+}
+.fifthverse:hover{
+    color:olivedrab;
+}
+.sixth{
+    color:rgb(243, 153, 43);
+}
+.sixth:hover{
+    color:#37285b;
+}
+.seventh{
+    color:bisque
+}
+.seventh:hover{
+    color:chartreuse;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer h2, footer h3 {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div h3 {
+    margin-left: 10px;
+}
